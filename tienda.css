@@ -8,8 +8,6 @@ body{
     grid-template-columns: repeat(3, 1fr);
 }
 
-
-
 .imagen_box{
     width: 200px;
     height: auto;
@@ -18,7 +16,6 @@ body{
 .huggy_img{
     width: 200px;
     height: auto;
-    
 }
 
 .music_img{
@@ -46,6 +43,10 @@ body{
     height: auto;
 }
 
-.btn{
+.btn_compra{
     cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #273cf5;
+    color: #f5f227;
 }
