@@ -1,0 +1,37 @@
+body{
+    background: #f3f48f;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+.imagen_box{
+    width: 200px;
+}
+
+.huggy_img{
+    width: 200px;
+    height: auto;
+    
+}
+
+.music_img{
+    width: 200px;
+}
+
+.hongonv{
+    width: 240px;
+}
+
+.champi1_img{
+    width: 200px;
+}
+
+.champi2_img{
+    width: 200px;
+}
