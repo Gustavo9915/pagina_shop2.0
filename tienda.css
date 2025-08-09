@@ -12,6 +12,7 @@ body{
 
 .imagen_box{
     width: 200px;
+    height: auto;
 }
 
 .huggy_img{
@@ -22,16 +23,29 @@ body{
 
 .music_img{
     width: 200px;
+    height: auto;
 }
 
-.hongonv{
-    width: 240px;
+.hongonv_img{
+    width: 210px;
+    height: auto;
 }
 
 .champi1_img{
     width: 200px;
+    height: auto;
 }
 
 .champi2_img{
     width: 200px;
+    height: auto;
+}
+
+.redes_face img{
+    width: 100px;
+    height: auto;
+}
+
+.btn{
+    cursor: pointer;
 }
