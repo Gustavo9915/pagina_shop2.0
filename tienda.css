@@ -1,6 +1,21 @@
 body{
     background: #f3f48f;
+    font-family: "Playwrite AU QLD", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 
+}
+
+.titulos{
+    text-align: center;
+}
+
+.titulos h1{
+    color: #f5274d;
+}
+.titulos h2{
+    color: black;
 }
 
 .container{
@@ -49,4 +64,6 @@ body{
     border-radius: 5px;
     background-color: #273cf5;
     color: #f5f227;
+    box-shadow: 4px, 4px, 4px, 0px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(-45deg, rgba(#273cf5))2% rgba(106, 17, 147, 1) 100%;
 }

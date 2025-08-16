@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+    color: black;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.container h1{
+    color: #22D4FD;
+}
