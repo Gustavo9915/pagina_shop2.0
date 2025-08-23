@@ -12,3 +12,21 @@ body{
 .container h1{
     color: #22D4FD;
 }
+
+.presentacion{
+    margin: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.presentacion_contenido{
+    width: 615px;
+}
+
+.btn-tienda{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color:   #ddf527;
+}
