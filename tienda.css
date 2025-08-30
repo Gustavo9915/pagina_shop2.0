@@ -167,7 +167,20 @@ button:active{
     width: 200px;
     height: auto;
 }
-.boton{
+.boton_menu{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #273cf5;
+    color: #f5f227;
+    box-shadow: 4px, 4px, 4px, 0px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(-45deg, rgba(#273cf5))2% rgba(106, 17, 147, 1) 100%;
+}
+.boton_menu :hover{
+    background-color: #2980b9;
+    color: white;
+}
+/*.boton{
     display: inline-block;
     padding: 10px 20px;
     background-color: #3498db;
@@ -190,7 +203,7 @@ a{
     transition: all 0.3s;
     align-items: center;
 }
-a:hover{
+bot:hover{
     background-color: #2980b9;
     color: white;
-}
+}*/
