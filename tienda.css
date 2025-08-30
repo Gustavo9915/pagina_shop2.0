@@ -165,3 +165,30 @@ button:active{
     width: 200px;
     height: auto;
 }
+.boton{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+a{
+    display: inline-block;
+    width: 90px;
+    height: 35px;
+    background-color: white;
+    color:#3498db ;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s;
+    align-items: center;
+}
+a:hover{
+    background-color: #2980b9;
+    color: white;
+}
