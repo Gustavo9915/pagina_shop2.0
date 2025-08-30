@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,29 +9,69 @@
 
 </head>
 <body>
-    <div>
+    <header>
+            <div class="caja">
+                <h1>
+                    <img class="logo_menu" src="img/Logo gus .png" alt="logo">                    
+                </h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="tienda.html">Tienda</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+    <main class="main-fore">
+        <form action="">
+            <label for="nombreApellido">Nombre y apellido</label>
+            <input type="text" id="nombreApellido" class="input-padron" required>
+            <label for="correoElectronico">correo electronico</label>
+            <input type=" text" id="correoElectronico" class="input-padron" required placeholder="email@dominio.com">
+            <label for="telefono">Telefono</label>
+            <input type=" text" id="telefono" class="input-padron " required  placeholder="(xx) xx xxxx xx xx">
+            <label for="mensaje">mensaje</label>
+            <textarea  cols="57" rows="10" id="mensaje" class="input-padron" required></textarea>
+
+            <fieldset>
+                <legend>¿Como le gustaria qe lo contactemos?</legend>
+                <label for="radio-email"><input type="radio" value="email" id="radio-email" name="Contacto">email</label>
+                <label for="radio-telefono" ><input type="radio" value="telefono" id="radio-telefono" name="Contacto">Telefono</label>
+                <label for="radio-whattsap"><input type="radio" value="whattsap" id="radio-whattsap" name="contacto">whattsap</label>
+            </fieldset>
+            <fieldset>
+                <legend>En que horario prefiere ser atendido</legend>
+                <select name="" id=""></select>
+                <option value="">Mañana</option>
+                <option value="">tarde</option>
+                <option value="">noche</option>
+
+            </fieldset>
+            <label for=""><input type="checkbox" class="checkbox" checked>Le gustaria recibir novedades en darwing shop</label>
+            <input type="submit" value="enviar cuestionario" class="enviar">
+        </form>
+    </main>
+
+
+    <!--<div>
         <button class="btn-tienda">
             <a href="tienda.html" id="tienda.html">Regresar a la tienda</a>
         </button>
-       
-       
     </div>
-    <main class="presentacion">
-        <section class="presentacion_contenido">
-            <div class="container">
+   
+    <section class="presentacion_contenido">
+        <div class="container">
              <h1>Gustavo Angel Clemente Ramirez</h1>
              <p>Artista digital</p>
              <h2>Contactame de lunes a sabado de 10am a 11pm</h2>
              <h2>251703718@prepaenlinea-sep.edu.mx mi correo</h2>
-              <a href="https://wa.me/525520956356?text=¡Hola!%20Me%20interesa%20saber%20m%C3%A1s%20sobre%20sus%20servicios">
-            <img src="img/wattslogo.png" alt="mi watts">
-        </a>
+            <a href="https://wa.me/525520956356?text=¡Hola!%20Me%20interesa%20saber%20m%C3%A1s%20sobre%20sus%20servicios">
+                <img src="img/wattslogo.png" alt="mi watts">
+            </a>
         </div>
-        </section>
-        <img src="img/" alt="">
+    </section>-->
+       
          
-
-    </main>
     
 </body>
 </html>
