@@ -112,7 +112,11 @@ button:active{
 }
 
 .music_img{
-    width: 200px;
+    width: 400px;
+    height: auto;
+}
+.champi3_img{
+    width: 330px;
     height: auto;
 }
 

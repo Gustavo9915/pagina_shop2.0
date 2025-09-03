@@ -80,6 +80,7 @@ body::before{
     box-shadow: 4px, 4px, 4px, 0px rgba(0, 0, 0, 0.5);
     align-items: center;
     cursor: pointer;
+    margin-left: 153px;
 
     
 
@@ -87,10 +88,8 @@ body::before{
 }
 .boton_imicio:hover{
     margin-left: -0.1rem;
-    box-shadow: 8px, 8px, 8px, 0px rgba(0, 0, 0, 0.5); 
-    
+    box-shadow: 8px, 8px, 8px, 0px rgba(0, 0, 0, 0.5);    
 }
-
 .title {
     font-family: Arial, sans-serif;
     font-size: 36px;
@@ -98,6 +97,13 @@ body::before{
     color:#ffffff;
     text-transform: uppercase;
     letter-spacing: 2px;
-    
+}
+.subtitulo{
+    text-align: center;
+    font-size: 30px;
 
+}
+.payaso_img{
+    max-width: 100%;
+    max-height: 250px;
 }
