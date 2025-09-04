@@ -68,6 +68,19 @@ nav a:hover{
 }
 form{
     margin: 40px 0;
+    background-color: #ffffff;
+    padding: 30px;
+    max-width: 500px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+input, textarea, select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 form label, form legend{
     display: block;
