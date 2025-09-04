@@ -31,3 +31,59 @@ nav a:hover{
     text-decoration: underline;
     color: #c79c19;
 }
+.nosotros{
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.nosotros-titulo{
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.nosotros-parrafo{
+    font-size: 16px;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 15px auto;
+    line-height: 1.6;
+}
+@media (max-width: 768px){
+    .nosotros-titulo{
+        font-size: 28px;
+    }
+    .nosotros-parrafo{
+        font-size: 15px;
+    }
+}
+.dibujos{
+    padding: 50px 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+}
+.dibujos-titulo{
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
+}
+.dibujos-galeria{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.dibujo{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+.dibujo:hover{
+    transform: scale(1.05s);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
