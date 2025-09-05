@@ -87,3 +87,28 @@ nav a:hover{
     transform: scale(1.05s);
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
 }
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/Ruido.png);
+}
+footer a{
+    color: #f39c12;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+footer a:hover{
+    color: #f39c12;
+}
+.logo-foo{
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+.copy{
+    font-size: 14px;
+    color: #bbb;
+}

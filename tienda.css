@@ -5,6 +5,10 @@ body{
     font-weight: weight;
     font-style: normal;
 }
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
 nav{
     position: absolute;
     top: 110px;
@@ -168,6 +172,10 @@ button:active{
     height: auto;
 }
 .perro_mimic2{
+    width: 200px;
+    height: auto;
+}
+.pica_img{
     width: 200px;
     height: auto;
 }
