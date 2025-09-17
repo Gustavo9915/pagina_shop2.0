@@ -144,7 +144,7 @@ body::before{
 .container_imagenfondo {
   position: relative;
   display: inline-block;
-  width: 350px; 
+  width: 350px;
   height: auto;
 }
 .container_imagenfondo .payaso_img {
