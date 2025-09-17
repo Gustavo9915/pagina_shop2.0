@@ -147,10 +147,10 @@ button:active{
     width: 100px;
     height: auto;
 }
-.redes-insta{
-    /*position: absolute;
+/*.redes-insta{
+    position: absolute;
     bottom: 20px;
-    left: 20px;*/
+    left: 20px;
   position: absolute;
   bottom: 20px;
   right: 20px;
@@ -161,7 +161,7 @@ button:active{
 }
 .redes-insta:hover{
     transform: scale(1.1);
-}
+}*/
 .btn_compra{
     cursor: pointer;
     border: none;
@@ -257,18 +257,10 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(img/Ruido.png);
 }
-footer a{
-    color: #f39c12;
-    text-decoration: none;
-    margin: 0 10px ;
-    transition: color 0.3s;
-}
-footer a:hover{
-    color: #ffdd59;
-}
+
 .footer-logo{
- /*   max-width: 150px;
-    margin-bottom: 10px;*/
+ /*  max-width: 150px;
+    margin-bottom: 10px; */
     max-width: 150px;
     margin: 0 auto 10px auto;
     display: block;
@@ -276,16 +268,4 @@ footer a:hover{
 .copyright{
     font-size: 14px;
     color: #bbb;
-}
-.redes_face img:hover{
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    width: 60px;
-    height: auto;
-    cursor: pointer;
-    transition: transform 0.3s;
-}
-.redes_face img:hover{
-    transform: scale(1.1);
 }

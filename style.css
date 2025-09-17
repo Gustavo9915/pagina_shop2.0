@@ -77,7 +77,7 @@ body::before{
     margin: 16px 0 16px 0;
 }
 .container_texto azul {
-    color: #1875E8;*/
+    color: #1875E8;
 
 
 }
@@ -125,7 +125,7 @@ body::before{
   cursor: pointer;
 }
 .payaso_img::after {
-  content: "Nombre del payaso"; /* Texto que aparece */
+  content: "Nombre del payaso"; 
   position: absolute;
   bottom: 0;
   left: 0;
