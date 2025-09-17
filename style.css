@@ -23,7 +23,7 @@ body{
 }
 body::before{
    /* background-image: url(img/fuego.jpg);*/
-    background-image: url(img/fondo4.png);
+    background-image: url(img/imagenfondo.png);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     background-position: center;
@@ -120,7 +120,7 @@ body::before{
 .payaso_img{
   position: relative;
   display: inline-block;
-  width: 300px; 
+  width: 260px; 
   height: auto;
   cursor: pointer;
 }
@@ -144,7 +144,7 @@ body::before{
 .container_imagenfondo {
   position: relative;
   display: inline-block;
-  width: 300px; 
+  width: 350px; 
   height: auto;
 }
 .container_imagenfondo .payaso_img {
