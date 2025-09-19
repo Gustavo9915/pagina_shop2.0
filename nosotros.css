@@ -75,17 +75,26 @@ nav a:hover{
     flex-wrap: wrap;
 }
 .dibujo{
-    width: 250px;
+    /*width: 250px;
     height: 250px;
     object-fit: cover;
     border-radius: 15px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;*/
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease box-shadow 0.4s ease;
     cursor: pointer;
 }
 .dibujo:hover{
-    transform: scale(1.05s);
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+   /* transform: scale(1.05);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);*/
+    transform: scale(1.08) rotate(2deg);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
 }
 footer{
     background-color: black;
