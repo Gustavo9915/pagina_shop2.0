@@ -142,15 +142,19 @@ button:active{
     width: 200px;
     height: auto;
 }
+.redes_face{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
 .redes_face img{
     width: 100px;
     height: auto;
 }
-.redes-insta{
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
+/*.redes-insta{
+  position: absolute;
+  bottom: 20px;
   position: absolute;
   bottom: 20px;
   right: 20px;
@@ -158,10 +162,10 @@ button:active{
   height: auto;
   cursor: pointer;
   transition: transform 0.3s;
-}
+}*/
 .redes-insta:hover{
     transform: scale(1.1);
-}*/
+}
 .btn_compra{
     cursor: pointer;
     border: none;
