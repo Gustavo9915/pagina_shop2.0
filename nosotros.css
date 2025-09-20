@@ -11,6 +11,9 @@ header{
     position: relative;
     margin: 0 auto;
 }
+.logo-nosotros{
+    width: 200px;
+}
 nav{
     position: absolute;
     top: 110px;
@@ -76,7 +79,7 @@ nav a:hover{
 }
 .dibujo{
     width: 250px;
-    height: 250px;
+    height: 350px;
     object-fit: cover;
     border-radius: 15px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
@@ -103,6 +106,20 @@ footer a{
 }
 footer a:hover{
     color: #f39c12;
+}
+.footer-logo{
+    max-width: 150px;
+    margin: 0 auto 10px auto;
+    display: block;
+}
+.redes_face{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.redes_face img{
+    width: 100px;
+    height: auto;
 }
 .logo-foo{
     max-width: 150px;
