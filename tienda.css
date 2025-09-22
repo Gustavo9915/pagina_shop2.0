@@ -207,7 +207,7 @@ button:active{
     background: linear-gradient(-45deg, rgba(#273cf5))2% rgba(106, 17, 147, 1) 100%;
 }
 .boton_menu :hover{
-    background-color: #2980b9;
+    /*background-color: #2980b9;*/
     color: white;
 }
 /*.boton{
