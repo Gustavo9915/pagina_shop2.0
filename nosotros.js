@@ -1,4 +1,4 @@
-const images = document.querySelectorAll(`.carusel img`);
+const images = document.querySelectorAll(`.carrusel img`);
 const prevBtn = document.querySelector(`.prev`);
 const nextBtn = document.querySelector(`.next`);
 let current = 0;
