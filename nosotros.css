@@ -91,7 +91,7 @@ nav a:hover{
     transform: scale(1.08) rotate(2deg);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
 }
-/*label{cursor: pointer;}
+label{cursor: pointer;}
 
 
 .ContainerCenter{
@@ -173,7 +173,7 @@ input{display: none}
 
 #Slider1:checked ~ .Selectors .Selector:nth-of-type(1) {background-color: #999999;}
 #Slider2:checked ~ .Selectors .Selector:nth-of-type(2) {background-color: #999999;}
-#Slider3:checked ~ .Selectors .Selector:nth-of-type(3) {background-color: #999999;}*/
+#Slider3:checked ~ .Selectors .Selector:nth-of-type(3) {background-color: #999999;}
 
 footer{
     background-color: black;
