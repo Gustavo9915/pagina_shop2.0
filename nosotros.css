@@ -175,6 +175,25 @@ input{display: none}
 #Slider2:checked ~ .Selectors .Selector:nth-of-type(2) {background-color: #999999;}
 #Slider3:checked ~ .Selectors .Selector:nth-of-type(3) {background-color: #999999;}
 
+
+.slider-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+.slider-container img{
+    flex: 0 0 10%;
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+}
+.img-slide{
+    width: 300px;
+    height: auto;
+}
+
 footer{
     background-color: black;
     color: #fff;
@@ -216,22 +235,5 @@ footer a:hover{
 }
 .face3{
     width: 160px;
-    height: auto;
-}
-.slider-container{
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-}
-.slider-container img{
-    flex: 0 0 10%;
-    width: 100%;
-    object-fit: cover;
-    scroll-snap-align: center;
-}
-.img-slide{
-    width: 300px;
     height: auto;
 }

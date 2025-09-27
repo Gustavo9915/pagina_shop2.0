@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+    <link rel="stylesheet" href="nosotros2.css">
+    <link rel="icon" type="image/x-icon" href="img/jackie.jpg">
+</head>
+<body>
+    <header>
+        <div class="caja">
+            <h1><img src="img/logo2.0.png" class="logo-img2" alt=""></h1>
+            <nav class="header-nosotros">
+                <ul >
+                    <li><a href="tienda.html">Tienda</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="carrusel">
+        <div class="contenido-carrusel">
+            <h1 class="titulo_carrusel">Galeria</h1>
+            <div class="containerCenter">
+                <!-- Radio Seleccionar -->
+                <input type="radio" name="Carrusel" id="Slider1" checked>
+                <input type="radio" name="Carrusel" id="Slider2">
+                <input type="radio" name="Carrusel" id="Slider3">
+    
+                <div class="Carrusels">
+                    <!-- Imagen contenido -->
+                    <div class="Carrusel" style="background-image: url(img/champi1.jpg);"></div> 
+                    <div class="Carrusel" style="background-image: url(img/bigtop2_pag.jpg);"></div>
+                    <div class="Carrusel" style="background-image: url(img/3mimic.png);"></div>
+                    
+                    <!-- Flechas a la izquierda por cada imagen -->
+                    <label for="Slider3" class="ArrowLeft Arrow1">❮</label>
+                    <label for="Slider1" class="ArrowLeft Arrow2">❮</label>
+                    <label for="Slider2" class="ArrowLeft Arrow3">❮</label>
+                    
+                    <!-- Flechas a la derecha por cada imagen -->
+                    <label for="Slider2" class="ArrowRight Arrow1">❯</label> 
+                    <label for="Slider3" class="ArrowRight Arrow2">❯</label>
+                    <label for="Slider1" class="ArrowRight Arrow3">❯</label>
+                </div>
+        
+                <!-- Selector circulos inferiores colgantes -->
+                <div class="Selectors">
+                    <label for="Slider1" class="Selector"></label>
+                    <label for="Slider2" class="Selector"></label>
+                    <label for="Slider3" class="Selector"></label>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
