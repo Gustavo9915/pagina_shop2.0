@@ -55,7 +55,7 @@ nav a{
     text-decoration: none;
 }
 nav a:hover{
-    color: white;
+    color: blue;
     text-decoration: underline;
 }
 .logo_menu{

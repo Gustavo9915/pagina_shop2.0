@@ -43,7 +43,7 @@ button{
     border-radius: 8px;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
     box-sizing: border-box;
-    color: #ffffff;
+    color: white;
     display: flex;
     font-size: 18px;
     justify-content: center;
@@ -59,6 +59,7 @@ button{
     cursor: pointer;
     transition: all 0.3s;
     margin-left: 30px;
+    border-color: white;
      /*padding: 17px 46px;
     border-radius: 50px;
     cursor: pointer;
