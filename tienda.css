@@ -77,6 +77,7 @@ button{
     transition: all 0.3s;
     margin-left: 30px;
     border-color: white;
+    margin-bottom: 10px;
 }
 button:hover{
     letter-spacing: 3px;
