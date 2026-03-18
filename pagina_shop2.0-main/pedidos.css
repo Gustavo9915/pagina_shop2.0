@@ -31,3 +31,55 @@ nav a:hover{
     color: blue;
     text-decoration: underline;
 }
+.logo-menu{
+    width: 200px;
+    height: auto;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #111;
+    color: white;
+}
+.pedidos{
+    text-align: center;
+    margin-top: 50px;
+}
+.pedidos h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.form-pedidos{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: auto;
+    background: #222;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+input, textarea , select{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+textarea{
+    resize: none;
+    height: 100px;
+}
+button{
+    background: purple;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+button:hover{
+    background: violet;
+    transform: scale(1.05s);
+}
