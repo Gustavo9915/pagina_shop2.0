@@ -37,7 +37,7 @@ nav a:hover{
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: #111;
+    background: #222;
     color: white;
 }
 .pedidos{
@@ -82,4 +82,31 @@ button{
 button:hover{
     background: violet;
     transform: scale(1.05s);
+}
+footer{
+    position: relative;
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 60px 20px 40px 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/Ruido.png);
+}
+.footer-logo{
+    max-width: 150px;
+    margin: 0 auto 10px auto;
+    display: block;
+}
+.copyright{
+    font-size: 14px;
+    color: #bbb;
+}
+.redes_face img{
+    width: 100px;
+    height: auto;
+}
+.redes_face{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
