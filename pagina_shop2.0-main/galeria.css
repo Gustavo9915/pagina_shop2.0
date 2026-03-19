@@ -1,0 +1,27 @@
+body{
+    background: #111;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+.titulo{
+    margin: 20px;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.galeria img{
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.galeria img:hover{
+    transform: scale(1.1);
+}

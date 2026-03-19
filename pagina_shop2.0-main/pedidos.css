@@ -110,3 +110,12 @@ footer{
     flex-direction: row;
     justify-content: space-around;
 }
+.precios{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.precios li{
+    margin: 5px;
+    font-size: 18px;
+}
