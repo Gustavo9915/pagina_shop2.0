@@ -25,3 +25,21 @@ body{
 .galeria img:hover{
     transform: scale(1.1);
 }
+.botones-volver{
+    margin-top: 20px;
+}
+
+.btn-volver{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #444;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn-volver:hover{
+    background: purple;
+}
