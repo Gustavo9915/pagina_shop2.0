@@ -1,0 +1,36 @@
+body{
+    background: #111;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+.testimonios{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: #222;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.volver a{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background: purple;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}

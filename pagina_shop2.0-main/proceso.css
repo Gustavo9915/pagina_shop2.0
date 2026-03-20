@@ -1,0 +1,39 @@
+body{
+    background: #111;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+h1{
+    margin: 30px;
+}
+
+.proceso{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.paso{
+    background: #222;
+    padding: 20px;
+    border-radius: 15px;
+    width: 200px;
+    transition: 0.3s;
+}
+
+.paso:hover{
+    transform: scale(1.05);
+}
+
+.volver a{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background: purple;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
