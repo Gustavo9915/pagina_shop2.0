@@ -43,3 +43,32 @@ body{
 .btn-volver:hover{
     background: purple;
 }
+footer{
+    position: relative;
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 60px 20px 40px 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/Ruido.png);
+}
+img{
+    transition: 0.5s;
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.3);
+    transition: filter 0.5s box-shadow 0.5s transform 0.5s;
+    overflow-clip-box: content-box;
+    overflow: clip;
+}
+img:hover{
+    opacity: 0.7s;
+    filter: grayscale(50%);
+    transform: rotate(2deg);
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5);
+}
+.redes-face{
+    width: 100px;
+    height: auto;
+}
