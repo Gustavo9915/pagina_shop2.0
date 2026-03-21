@@ -29,3 +29,46 @@ body{
     text-decoration: none;
     border-radius: 10px;
 }
+footer{
+    background: #1f2c3a;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    background-image: url(img/Ruido.png);
+}
+.footer-contenido{
+    max-width: 900px;
+    margin: auto;
+}
+
+.footer-logo{
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.footer-titulo{
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.copyright{
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 40px;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.redes img{
+    width: 80px;
+    transition: 0.3s;
+}
+
+.redes img:hover{
+    transform: scale(1.2);
+}
