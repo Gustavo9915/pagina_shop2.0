@@ -1,12 +1,23 @@
 body{
     background: #111;
     color: white;
-    font-family: Arial;
     text-align: center;
+     font-family: Arial;
+    font-family: "Edu NSW ACT Cursive", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
-.titulo{
-    margin: 20px;
+header{
+    padding: 20px;
+    background: #222;
+}
+
+nav a{
+    margin: 10px;
+    color: white;
+    text-decoration: none;
 }
 
 .galeria{
@@ -23,59 +34,15 @@ body{
 }
 
 .galeria img:hover{
-    transform: scale(1.1);
-}
-.botones-volver{
-    margin-top: 20px;
-}
-
-.btn-volver{
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 20px;
-    background: #444;
-    color: white;
-    text-decoration: none;
-    border-radius: 10px;
-    transition: 0.3s;
-}
-
-.btn-volver:hover{
-    background: purple;
-}
-footer{
-    position: relative;
-    background-color: #1a1a1a;
-    color: #fff;
-    padding: 60px 20px 40px 20px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(img/Ruido.png);
-}
-img{
-    transition: 0.5s;
-    display: inline-block;
-    margin: 20px;
-    width: 300px;
-    box-shadow: rgba(0, 0, 0, 0.3);
-    transition: filter 0.5s box-shadow 0.5s transform 0.5s;
-    overflow-clip-box: content-box;
-    overflow: clip;
-}
-img:hover{
-    opacity: 0.7s;
-    filter: grayscale(50%);
-    transform: rotate(2deg);
-    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
 }
 footer{
     background: #1f2c3a;
-    padding: 60px 20px;
+    padding: 110px 0px;
     text-align: center;
     color: white;
     background-image: url(img/Ruido.png);
 }
-
 .footer-contenido{
     max-width: 900px;
     margin: auto;
@@ -111,4 +78,13 @@ footer{
 
 .redes img:hover{
     transform: scale(1.2);
+}
+.volver a{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background: purple;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
 }
