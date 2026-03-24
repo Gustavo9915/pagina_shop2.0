@@ -3,6 +3,11 @@ body{
     color: white;
     text-align: center;
     font-family: Arial;
+    font-family: "Edu NSW ACT Cursive", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
 }
 
 .sobre-mi{
