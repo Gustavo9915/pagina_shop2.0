@@ -198,10 +198,12 @@ button:active{
     border: none;
     border-radius: 5px;
     background-color: #273cf5;
-    color: #f5f227;
+    color: white;
     box-shadow: 4px, 4px, 4px, 0px rgba(0, 0, 0, 0.5);
-    background: linear-gradient(-45deg, rgba(#273cf5))2% rgba(106, 17, 147, 1) 100%;
+    /*background: linear-gradient(-45deg, rgba(#273cf5))2% rgba(106, 17, 147, 1) 100%;*/
+    background: purple;
 }
+
 .boton_menu :hover{
     color: white;
 }
