@@ -13,23 +13,23 @@
 <body>
     <h1>Opiniones de clientes</h1>
     <section class="testimonios">
-        <div class="card">
+        <div class="card" onclick="subirProgreso(this)">
             <p>Me encanto el dibujo</p>
             <h4>Cliente</h4>
             <label for="file">Progreso</label>
-            <progress id="file" max="100%" value="0%">0%</progress>
+            <progress  max="100%" value="0%">0%</progress>
         </div>
-        <div class="card">
+        <div class="card" onclick="subirProgreso(this)">
             <p>Muy buen trabajo recomendado</p>
             <h4>Cliente</h4>
             <label for="file">Progreso</label>
-            <progress id="file" max="100" value="0%">0%</progress>
+            <progress  max="100" value="0%">0%</progress>
         </div>
-        <div class="card">
+        <div class="card" onclick="subirProgreso(this)">
             <p>Volveria a comprar sin duda</p>
             <h4>Cliente</h4>
             <label for="file">Progreso</label>
-            <progress id="file" max="100" value="0%">0%</progress>
+            <progress  max="100" value="0%">0%</progress>
         </div>
     </section>
     <div class="volver">
@@ -58,5 +58,16 @@
             </a>
         </div>
     </footer>
+    <script>
+        function subirProgreso(card){
+            let barra = card.querySelector("progress");
+
+            let progreso = barra.value;
+            if(progreso < 100){
+                progreso += 10;
+                barra.value = progreso;
+            }
+        }
+    </script>
 </body>
 </html>
