@@ -58,16 +58,16 @@
             </a>
         </div>
     </footer>
-    <script>
-        function subirProgreso(card){
-            let barra = card.querySelector("progress");
+  <script>
+    function subirProgreso(card) {
+      let barra = card.querySelector("progress");
 
-            let progreso = barra.value;
-            if(progreso < 100){
-                progreso += 10;
-                barra.value = progreso;
-            }
-        }
-    </script>
+     let progreso = parseInt(barra.value) || 0;
+
+        if (progreso < 100) {
+        barra.value = progreso + 10;
+    }
+}
+</script>
 </body>
 </html>
