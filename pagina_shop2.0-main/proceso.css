@@ -21,15 +21,14 @@ h1{
 }
 
 .paso{
-    background: #222;
-    padding: 20px;
-    border-radius: 15px;
-    width: 200px;
-    transition: 0.3s;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease;
 }
 
-.paso:hover{
-    transform: scale(1.05);
+.paso.mostrar{
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .volver a{
