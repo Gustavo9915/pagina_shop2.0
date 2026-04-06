@@ -116,3 +116,7 @@ img:hover{
     margin-right: 10px;
     vertical-align: middle;
 }
+.menu{
+    width: 70px;
+    margin-bottom: -40px;
+}
