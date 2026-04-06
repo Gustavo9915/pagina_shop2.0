@@ -267,5 +267,9 @@ footer{
 .redes img:hover{
     transform: scale(1.2);
 }
+.menu{
+    width: 70px;
+    margin-bottom: -40px;
+}
 
 
