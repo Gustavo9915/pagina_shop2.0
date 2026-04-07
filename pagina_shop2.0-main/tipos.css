@@ -102,3 +102,67 @@ img:hover{
     width: 70px;
     margin-bottom: -40px;
 }
+.boton_menu{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #273cf5;
+    color: white;
+    box-shadow: 4px, 4px, 4px, 0px rgba(0, 0, 0, 0.5);
+    /*background: linear-gradient(-45deg, rgba(#273cf5))2% rgba(106, 17, 147, 1) 100%;*/
+    background: purple;
+}
+
+.boton_menu :hover{
+    color: white;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+button{
+    align-items: center;
+    background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    max-width: 200px;
+    padding: 5px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-left: 30px;
+    border-color: white;
+    margin-bottom: 10px;
+}
+button:hover{
+    letter-spacing: 3px;
+    background-color: hsl(261deg, 80%, 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93, 24, 220) 0px 7px 29px 0px;
+    max-width: 300px;
+}
+
+button:active{
+    letter-spacing: 3px;
+    background-color: hsl(261deg, 80%, 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93, 24, 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
