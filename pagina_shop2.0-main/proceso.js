@@ -1,11 +1,11 @@
-const pasos = document.querySelectorAll(`.paso`);
-window.addEventListener(`scroll`, () => {
-    pasos.forEach(paso => {
-        const posicion = paso.getBoundingClientRect().top;
+const cards = document.querySelectorAll(`.card`);
+window.addEventListener(`scroll`,  () => {
+    cards.forEach(card => {
+        const posicion = card.getBoundingClientRect().top;
         const pantalla = window.innerHeight;
 
-        if(posicion < pantalla -100){
-            paso.classList.add(`mostrar`);
+        if (posicion < pantalla -100){
+            card.classList.add(`mostrar`)
         }
     })
 })
