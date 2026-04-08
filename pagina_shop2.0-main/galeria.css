@@ -171,7 +171,3 @@ button:active{
     transform: translateY(10px);
     transition: 100ms;
 }
-.menu_artistico{
-    background-color: #af40ff;
-    padding: 10px;
-}
