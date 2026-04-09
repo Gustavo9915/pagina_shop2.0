@@ -271,5 +271,13 @@ footer{
     width: 70px;
     margin-bottom: -40px;
 }
-
+.volver a{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background: purple;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
 
