@@ -157,3 +157,36 @@ button:active{
     transform: translateY(10px);
     transition: 100ms;
 }
+.barra-progreso{
+    width: 80%;
+    height: 10px;
+    background: #ddd;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.progreso{
+    width: 0%;
+    height: 100%;
+    background: #4CAF50;
+    animation: avanzar 4s infinite;
+}
+@keyframes avanzar{
+    0%{width: 0%;}
+    50%{width: 70%;}
+    100%{width: 100%;}
+
+}
+.tips {
+  padding: 40px;
+  background: #f0f0f0;
+  text-align: center;
+  color: #222; 
+}
+.tips h2 {
+  color: #000;
+}
+
+.tips li {
+  color: #333;
+}
