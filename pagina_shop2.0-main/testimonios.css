@@ -165,3 +165,12 @@ button:active{
     transform: translateY(10px);
     transition: 100ms;
 }
+.volver a{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background: purple;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
