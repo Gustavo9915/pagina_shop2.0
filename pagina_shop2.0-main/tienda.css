@@ -1,5 +1,5 @@
 body{
-    background: #348585;
+    background: orange;
     font-family: "Playwrite AU QLD", cursive;
     font-optical-sizing: auto;
     font-weight: weight;
@@ -101,7 +101,7 @@ button:active{
     color: #f5274d;
 }
 .titulos h2{
-    color: black;
+    color: blue;
 }
 
 .container{
