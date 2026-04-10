@@ -114,6 +114,7 @@ ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    text-align: center;
 }
 button{
     align-items: center;
@@ -176,17 +177,4 @@ button:active{
     50%{width: 70%;}
     100%{width: 100%;}
 
-}
-.tips {
-  padding: 40px;
-  background: #f0f0f0;
-  text-align: center;
-  color: #222; 
-}
-.tips h2 {
-  color: #000;
-}
-
-.tips li {
-  color: #333;
 }
