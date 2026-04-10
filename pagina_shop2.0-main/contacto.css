@@ -193,3 +193,21 @@ button:active{
     text-decoration: none;
     border-radius: 10px;
 }
+.formulario button{
+    padding: 10px 20px;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.formulario button:hover{
+    background: #333;
+    transform: scale(1.05);
+}
+#respuesta{
+    margin-top: 10px;
+    color: green;
+    font-weight: bold;
+}

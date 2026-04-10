@@ -42,11 +42,28 @@
             <img src="img/correo_pag.png" alt="" class="icono">Correo
         </a>
     </section>
-    <section>
+    <section class="formulario">
+        <h2>Enviame un mensaje</h2>
+        <form  id="formContacto">
+            <input type="text" id="nombre" placeholder="tu nombre" required>
+            <input type="email" id="correo" placeholder="tu correo" required>
+            <textarea id="mensaje" placeholder="escribe tu mensaje ..."></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="respuesta"></p>
     </section>
     <div class="volver">
         <a href="tienda.html">Volver a tienda</a>
     </div>
+    <script>
+        document.getElementById("formContacto").addEventListener("submit", function(e){
+            e.preventDefault();
+            let nombre = document.getElementById("nombre").value;
+            document.getElementById("respuesta").textContent = 
+                "Gracias" + nombre + ", te respondo pronto";
+            this.reset();
+        })
+    </script>
     <footer>
         <div class="footer-contenido">
             <img src="img/fondoblanco.png" alt="" class="footer-logo">
