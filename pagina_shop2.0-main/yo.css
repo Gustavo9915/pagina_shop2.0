@@ -166,12 +166,10 @@ button:active{
     margin: 40px auto;
     text-align: left;
 }
-
 .skills h2 {
     text-align: center;
     margin-bottom: 20px;
 }
-
 .barra {
     width: 100%;
     height: 12px;
@@ -180,25 +178,19 @@ button:active{
     margin-bottom: 15px;
     overflow: hidden;
 }
-
 .progreso {
     height: 100%;
     border-radius: 10px;
     width: 0;
     transition: width 1.5s ease;
 }
-
-/* niveles */
 .anime { width: 90%; background: black; }
 .retrato { width: 85%; background: black; }
 .juegos { width: 80%; background: black; }
-
-/* botón */
 .cta {
     text-align: center;
     margin: 40px 0;
 }
-
 .cta a {
     padding: 12px 25px;
     background: black;
@@ -208,7 +200,6 @@ button:active{
     font-size: 18px;
     transition: 0.3s;
 }
-
 .cta a:hover {
     background: #333;
     transform: scale(1.05);
