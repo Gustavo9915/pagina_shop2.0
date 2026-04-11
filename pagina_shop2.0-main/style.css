@@ -20,6 +20,8 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: Arial;
+    font-family: "Edu NSW ACT Cursive", cursive;
 }
 body::before{
    /* background-image: url(img/fuego.jpg);*/
