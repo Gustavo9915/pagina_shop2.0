@@ -7,6 +7,7 @@ body{
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    box-sizing: border-box;
 }
 
 h1{
@@ -142,48 +143,42 @@ ul{
     flex-direction: row;
     list-style-type: none;
 }
+
 button{
-    align-items: center;
-    background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
-    border: 0;
-    border-radius: 8px;
-    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
-    box-sizing: border-box;
+    display: block;
+    margin: 20px auto;
+    width: 250px;
+    padding: 15px;
+    background: linear-gradient(45deg, #6a00ff, #9d4dff);
     color: white;
-    display: flex;
-    font-size: 18px;
-    justify-content: center;
-    line-height: 1em;
-    max-width: 100%;
-    max-width: 200px;
-    padding: 5px;
     text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    white-space: nowrap;
-    cursor: pointer;
-    transition: all 0.2s;
-    margin-left: 30px;
-    border-color: white;
-    margin-bottom: 10px;
+    border-radius: 12px;
+    font-size: 18px;
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
 }
-button:hover{
-    letter-spacing: 3px;
-    background-color: hsl(261deg, 80%, 48%);
-    color: hsl(0, 0%, 100%);
-    box-shadow: rgb(93, 24, 220) 0px 7px 29px 0px;
-    max-width: 300px;
+.btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, rgba(255,255,255,0.4), transparent);
+    transition: 0.5s;
 }
 
-button:active{
-    letter-spacing: 3px;
-    background-color: hsl(261deg, 80%, 48%);
-    color: hsl(0, 0%, 100%);
-    box-shadow: rgb(93, 24, 220) 0px 0px 0px 0px;
-    transform: translateY(10px);
-    transition: 100ms;
+.btn:hover::before{
+    left: 100%;
 }
+
+/* hover principal */
+.btn:hover{
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 10px 25px rgba(157, 77, 255, 0.6);
+}
+
 .volver a{
     display: inline-block;
     margin: 20px;
@@ -193,21 +188,47 @@ button:active{
     text-decoration: none;
     border-radius: 10px;
 }
-.formulario button{
-    padding: 10px 20px;
+.formulario {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.fila {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.fila input {
+    flex: 1;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
     border: none;
+    outline: none;
+}
+
+/* textarea alineado correctamente */
+textarea {
+    height: 100px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+/* botón */
+button {
     background: black;
     color: white;
+    padding: 10px;
+    border: none;
     border-radius: 10px;
     cursor: pointer;
-    transition: 0.3s;
 }
-.formulario button:hover{
+
+button:hover {
     background: #333;
-    transform: scale(1.05);
-}
-#respuesta{
-    margin-top: 10px;
-    color: green;
-    font-weight: bold;
 }
